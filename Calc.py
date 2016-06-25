@@ -38,9 +38,9 @@ while(user_input != "exit"):
    num1 = float(input("Enter a number:"))
    num2 = float(input("Enter a number to multiply:"))
    print(num1 * num2)
-#  elif user_input == "square root":
-#   num1 = float(input("Enter a number")
-#   print(square(num1))
+  elif user_input == "square root":
+   num1 = float(input("Enter a number")
+   print(square(num1))
   else:
    print('"' + user_input + '"' + " is not a command")
  except ZeroDivisionError:
