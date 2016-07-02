@@ -73,7 +73,60 @@ while(user_input != "exit"):
    lastnum (num1 ** num2)
   elif user_input == "m":
    print(m)
-   
+      if user_input == ("exit"):
+    print("Exited")
+   elif user_input ==(""):
+    print("Please type a command")
+   elif user_input == "commands":
+    print('Type "add" for addition')
+    print('Type "subtract" for subtraction')
+    print('Type "multiply" for multiplication')
+    print('Type "divide" for division')
+    print('Type "modulo" for modulo division')
+    print('Type "floor" for floor division') 
+    print('Type "square" for square root')
+    print('Type "exponent" for exponentation')
+    print('Type "exit"to exit')
+    print('Type "commands" to view the commands')
+   elif user_input == "add":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter number to add:"))
+    print(num1+num2)
+    lastnum = (num1 + num2)
+   elif user_input == "subtract":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter another number:"))
+    print(num1 - num2)
+    lastnum = (num1 - num2)
+   elif user_input == "divide":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter another number:"))
+    print(num1 / num2)
+    lastnum = (num1 / num2)
+   elif user_input == "multiply":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter a number to multiply:"))
+    print(num1 * num2)
+    lastnum = (num1 * num2)
+   elif user_input == "modulo":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter another number:"))
+    print(num1 % num2)
+    lastnum = (num1 % num2)
+   elif user_input == "floor":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter another number:"))
+    print(num1 // num2)
+    lastnum = (num1 // num2)
+   elif user_input == "square":
+    x = float(input("Enter a number:"))
+    print(sqrt(x))
+    lastnum = sqrt(x)
+   elif user_input == "exponent":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter another number:"))
+    print(num1 ** num2)
+    lastnum  = (num1 ** num2)
   elif user_input == "mv":
    print(m)
   elif user_input == "mc":
