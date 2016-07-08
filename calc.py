@@ -26,6 +26,7 @@ print('Type "num" to add a number to the last number')
 print('Type "last" to show the last number')
 print('Type "exit"to exit')
 print('Type "commands" to view the commands')
+print('Type "clear" to clear the screen')
 print()
 while(user_input != "exit"):
  try:
@@ -64,6 +65,7 @@ while(user_input != "exit"):
    print('Type "last" to show the last number')
    print('Type "exit"to exit')
    print('Type "commands" to view the commands')
+   print('Type "clear" to clear the screen')
    print()
   elif user_input == "add":
    num1 = float(input("Enter a number:"))
@@ -155,7 +157,7 @@ while(user_input != "exit"):
    m = m - lastnum 
    print(str(m) + " = last memory")
   elif user_input == "clear":
-   count = 50
+   count = 1000
    while count != 0:
     print("")
     count -= 1
